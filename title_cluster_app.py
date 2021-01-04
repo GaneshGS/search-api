@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template
+import spacy
 import en_core_web_sm
 import pickle as pkl
 
