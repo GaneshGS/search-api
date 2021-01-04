@@ -1,9 +1,14 @@
-
-Flask
+flask
 numpy
 pandas
 scikit-learn
 scipy
 spacy
 gunicorn
+itsdangerous
+Jinja2
+Marksafe
+Werkzeug
+matplotlib
+
   
