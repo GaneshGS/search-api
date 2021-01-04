@@ -10,5 +10,6 @@ Jinja2
 Markupsafe
 Werkzeug
 matplotlib
+python -m spacy download en_core_web_md
 
   
