@@ -3,13 +3,8 @@ numpy
 pandas
 scikit-learn
 scipy
-pip3 install spacy && python3 -m spacy download en_core_web_md 
+spacy
 gunicorn
-itsdangerous
-Jinja2
-Markupsafe
-Werkzeug
-matplotlib
 
 
   
