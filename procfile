@@ -1,1 +1,1 @@
-web: gunicorn title_cluster_app: app
+web: gunicorn title_cluster_app:app
