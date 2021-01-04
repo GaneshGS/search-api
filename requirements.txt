@@ -5,4 +5,4 @@ scikit-learn
 scipy
 spacy<2.0.0,>=1.7.0
 gunicorn
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-1.2.0/en_core_web_sm-1.2.0.tar.gz
+https://github.com/explosion/spacy-models/releases/download/en_core_web_md/en_core_web_md.tar.gz
