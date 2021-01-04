@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template
 import spacy
-en_core_web_sm
+import en_core_web_sm
 import pickle as pkl
 
 app = Flask(__name__)
