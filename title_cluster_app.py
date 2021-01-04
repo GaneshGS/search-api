@@ -1,11 +1,11 @@
 from flask import Flask, request, render_template
 import spacy
-import en_core_web_md
+import en_core_web_sm
 import pickle as pkl
 
 app = Flask(__name__)
 title_model = pkl.load(open('kmeans.pkl', 'rb'))
-nlp = spacy.load('en_core_web_md')
+nlp = spacy.load('en_core_web_sm')
 
 @app.route('/')
 def home():
