@@ -17,7 +17,7 @@ def predict():#For rendering results on HTML GUI
     title = request.form["Title"]
     vector_emb = nlp(str(title))
     prediction = title_model.predict([vector_emb.vector])
-    return render_template('index.html', title=title, Cluster_label=prediction)
+    return render_template('index.html', title=title, Cluster_label=prediction[0])
 
 
 if __name__ == "__main__":
