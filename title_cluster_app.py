@@ -4,7 +4,7 @@ import pickle as pkl
 
 app = Flask(__name__)
 title_model = pkl.load(open('kmeans.pkl', 'rb'))
-nlp = spacy.load('en')
+nlp = spacy.load('en_core_web_sm')
 
 @app.route('/')
 def home():
